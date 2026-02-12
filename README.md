@@ -2,25 +2,16 @@
 
 Small Python tool that automatically detects and crops panels from a webcomic page image.
 
-## Install
+## Quick start (all OS)
 ```bash
 pip install -r requirements.txt
+python run.py
 ```
-
-## Usage
-Single image:
+And for specific files:
 ```bash
-python auto_crop_panels.py page.png
-```
-
-Multiple images:
-```bash
-python auto_crop_panels.py *.png
-```
-
-Debug:
-```bash
-python auto_crop_panels.py page.png --debug --keep-debug
+python run.py page1.png page2.jpg
+python run.py ./folder_with_pages
+python run.py *.png
 ```
 
 ## Output
